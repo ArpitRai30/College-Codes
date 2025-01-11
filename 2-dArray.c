@@ -242,3 +242,82 @@
 //         printf("\n");
 //     }
 // }
+
+
+
+
+
+// sum of lower triangular of a matrix
+
+// #include <stdio.h>
+// void main(){
+    // int arr[3][3]={{1,2,3}, {4,5,6}, {7,8,9}};
+    // int i, j, sum=0;
+    // for(i=0; i<3; i++){
+    //     for(j=0; j<=i; j++){
+    //         sum=sum+arr[i][j];
+    //     }
+    // }
+    // printf("lower triangular sum is %d", sum);
+// }
+
+
+
+
+
+// sum of row
+
+// #include <stdio.h>
+// void main(){
+//     int arr[3][3];
+//     int i, j, row, sum=0;
+//     printf("enter matrix:");
+//     for(i=0; i<3; i++){
+//         for(j=0; j<3; j++){
+//             scanf("%d", &arr[i][j]);
+//         }
+//     }
+//     printf("enter row no.:");
+//     scanf("%d", &row);
+//     for(i=row-1; i<row; i++){
+//         for(j=0; j<3; j++){
+//             sum=sum+arr[i][j];
+//         }
+//     }
+//     printf("sum of row is %d", sum);
+
+// }
+
+
+
+// reverse order
+
+// #include<stdio.h>
+// void main(){
+//     int arr[5]={1,2,3,4,5};
+//     int i, j=4, temp;
+//     for(i=0; i<=j; i++){
+//         temp=arr[i];
+//         arr[i]=arr[j];
+//         arr[j]=temp;
+//         j--
+//     }
+//     for(i=0; i<5; i++){
+//         printf("%d ", arr[i]);
+//     }
+// }
+
+
+
+
+
+// enum
+
+// #include<stdio.h>
+// enum month{jan, feb, mar, apr};
+// void main(){
+//     enum month;
+//     for(int i=jan; i<=apr; i++){
+//         printf("%d ", i);
+//     }
+// }

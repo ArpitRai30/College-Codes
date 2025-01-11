@@ -3,7 +3,9 @@
 // #include<stdio.h>
 // int main()
 // {
-//     int num=5, total;
+//     int num, total;
+//     printf("enter a number:");
+//     scanf("%d", &num);
 //     total=fact(num);
 //     printf("fact of num is %d", total);
 // }

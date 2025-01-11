@@ -104,6 +104,9 @@
 
 
 
+
+// linear search
+
 // #include<stdio.h>
 // #include<math.h>
 // #include<string.h>
@@ -126,6 +129,9 @@
 
 
 
+
+
+// binary search
 
 // #include<stdio.h>
 // #include<math.h>
@@ -159,9 +165,68 @@
 
 
 
-#include<stdio.h>
-#include<math.h>
-#include<string.h>
-void main(){
-    int arr[5]={2, 7, 1, 9, 5}
-}
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// void main(){
+//     int arr[5]={10, 20, 30, 40, 50};
+//     int *ptr, i;
+//     ptr=arr;
+//     ptr=ptr+4;
+//     *ptr=*ptr+10;
+//     for(i=0; i<5; i++){
+//         printf("%d ", arr[i]);
+//     }
+// }
+
+
+
+
+
+// min/max
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// void main(){
+//     int arr[5]={2, 7, 1, 9, 5}, i, max, min;
+//     max=arr[0];
+//     min=arr[0];
+//     for(i=0; i<5; i++){
+//         if(arr[i]>=max){
+//             max=arr[i];
+//         }
+//         else if(arr[i]<min) {
+//             min=arr[i];
+//         }
+//     }
+//     printf("max value is %d\nmin value is %d\n", max, min);
+// }
+
+
+
+
+
+// bubble sort
+
+// #include <stdio.h>
+// void main(){
+//     int arr[5]={2, 7, 1, 9, 5}, i, j, temp;
+//     printf("before sorting array:");
+//     for(i=0; i<5; i++){
+//         printf("%d ",arr[i]);
+//     }
+//     for(i=0; i<5; i++){
+//         for(j=i+1; j<5; j++){
+//             if(arr[j]<arr[i]){
+//                 temp=arr[i];
+//                 arr[i]=arr[j];
+//                 arr[j]=temp;
+//             }
+//         }
+//     }
+//     printf("\nafter sorting array:");
+//     for (i=0; i<5; i++){
+//         printf("%d ", arr[i]);
+//     }
+// }

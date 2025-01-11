@@ -1,7 +1,13 @@
-  int arr[5]={10, 20, 30, 40, 50}, i, sum=0, avg;
-    for(i=0; i<=4; i++){
-        sum=sum+arr[i];
-    }
-    avg=sum/i;
-    printf("avg of number is %d\n", avg);
-}
+// #include<stdio.h>
+// int main(){
+//     int num=4, b;
+//     b=fact(num);
+//     printf("%d", b);
+// }
+// int fact(int x){
+//     int i;
+//     for (i=x-1; i>=1; i--) {
+//         x= i* x;
+//     }
+//     return x;
+// }

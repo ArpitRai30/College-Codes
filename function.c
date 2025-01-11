@@ -58,7 +58,9 @@
 
 // #include<stdio.h>
 // int main(){
-//     int num=4, b;
+//     int num, b;
+//     printf("enter a number:");
+//     scanf("%d", &num);
 //     b=fact(num);
 //     printf("%d", b);
 // }

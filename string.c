@@ -258,3 +258,24 @@
 //         printf("string is not same");
 //     }
 // }
+
+
+// #include<stdio.h>
+// #include<string.h>
+// int main(){
+//     char str1[10]="HELLOP"; 
+//     char str2[10]="HELLO";
+//     int i=0, flag =0;
+//     while ( str1[i]!='\0' || str2[i]!='\0'){
+
+//         if (str1[i]!=str2[i]){
+//             flag =1;
+//             printf(" string not same");
+//             break;
+//         }
+//         i++;
+//     }
+// if (flag ==0){ 
+//     printf(" string is same ");
+// } 
+// }

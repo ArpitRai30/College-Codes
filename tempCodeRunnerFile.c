@@ -1,13 +1,7 @@
-// #include<stdio.h>
+#include<stdio.h>
+// #include <string.h>
 // int main(){
-//     int num=4, b;
-//     b=fact(num);
-//     printf("%d", b);
-// }
-// int fact(int x){
-//     int i;
-//     for (i=x-1; i>=1; i--) {
-//         x= i* x;
-//     }
-//     return x;
+//     char str[]="Arpit Rai";
+//     char *pos=strchr(str, '\0');
+//     printf("length of str is %d", pos-str);
 // }

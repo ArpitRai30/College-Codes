@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<stdio.h>
 int main(){
 
@@ -70,56 +70,4 @@ int main(){
 
 
     return 0;
-=======
-#include<stdio.h>
-int main(){
-
-    // matrix
-
-
-
-    // int i, j;
-    // for(i=1; i<=5; i++){
-    //     for(j=1; j<=i; j++){
-    //         printf("%d", i);
-    //     }
-    //     printf("\n");
-    // }
-
-
-
-
-
-
-    // int i,j;
-    // for(i=1; i<=5; i++){
-    //     for(j=1; j<=i; j++){
-    //         if((i+j)%2==0){
-    //             printf("A");}
-    //         else{
-    //                 printf("B");
-    //             }
-    //         }
-    //         printf("\n");
-    //     }
-
-
-
-
-
-
-    // int i,j,k;
-    // for(i=1; i<=5; i++){
-    //      for(k=5; k>i; k--){
-    //             printf(" ");
-    //     }
-    //       for(j=1; j<=2*i-1; j++){
-    //           printf("*");
-    //     }
-    //     printf("\n");
-    // }
-
-
-    return 0;
->>>>>>> 307508dbd78ca11e400621b642c2bc865cbddad8
 }

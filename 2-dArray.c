@@ -300,7 +300,7 @@
 //         temp=arr[i];
 //         arr[i]=arr[j];
 //         arr[j]=temp;
-//         j--
+//         j--;
 //     }
 //     for(i=0; i<5; i++){
 //         printf("%d ", arr[i]);

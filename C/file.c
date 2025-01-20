@@ -170,5 +170,61 @@
 //     // close the even and odd files after writing
 //     fclose(evenfile);
 //     fclose(oddfile);
+//     char readE;
+//     evenfile = fopen("E:/hiii/even.txt", "r");
+//     while((readE=fgetc(evenfile)) != EOF){
+//         putchar(readE);
+//     }
+//     fclose(evenfile);
 //     return 0;
 // }
+
+
+
+
+
+// #include <stdio.h>
+// int main() {
+//     // open a file for writing
+//     FILE *file = fopen("E:/hiii/example.txt", "w");
+//     if(file==NULL){
+//         printf("Error opening file\n");
+//         return 1;
+//     }
+//     // write some data to the file
+//     fprintf(file, "Hello World!\nThis is an example of fseek, ftell and rewind.");
+//     // move the file pointer 6 bytes from he beginning
+//     fseek(file, 6, SEEK_SET);
+//     printf("File pointer moved to position: %ld\n", ftell(file)); // prints 6
+//     // move the file pointer 5 bytes ahead from the current position
+//     fseek(file, 5, SEEK_CUR);
+//     printf("File pointer moved to position: %ld\n", ftell(file)); // prints 11
+//     // move the file pointer 5 bytes from the end
+//     fseek(file, -5, SEEK_END);
+//     printf("File pointer moved to position: %ld\n", ftell(file)); // prints position 47 (base)
+//     // rewind the file pointer to the start
+//     rewind(file);
+//     printf("File pointer after rewind: %ld\n", ftell(file)); // prints 0
+//     // close the file
+//     fclose(file);  
+// }
+
+
+
+
+#include <stdio.h>
+int main(int argc, char *argv[]){
+    printf("Name of Program: %s\n", argv[0]);
+    if(argc==1){
+        printf("No Extra command line argument passed"
+                " other than Program name\n");
+    }
+    if(argc>=2){
+        printf("Number of arguments passed: %d\n", argc);
+        printf("----Following are th command line"
+                "Arguments Passed----");
+        for(int i = 0; i < argc; i++){
+            printf("argv[%d]: %s", i, argv[i]);
+        }
+    }
+}

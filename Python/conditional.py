@@ -147,3 +147,18 @@
 
 # else:
 #     print("Enter a number between 1 and 7")
+
+
+
+
+n = int(input("Enter number: "))
+flag = 0
+if n > 1:
+    for i in range(2, n//2 + 1):
+        if n % i == 0:
+            print("Not a prime number")
+            break
+    else:
+        print("Prime number")
+else:
+    print("Not a prime number")

@@ -1,3 +1,86 @@
+# creating a function
+
+# def findSum(a, b):
+#     result = a + b
+#     return result
+
+# x = int(input("x: "))
+# y = int(input("y: "))
+# print(f"{x} + {y} = {findSum(x,y)}")
+
+
+
+
+# return multiple values
+
+# def arithmetic(num1, num2):
+#     add = num1 + num2
+#     sub = num1 - num2
+#     multiply = num1 * num2
+#     div = num1 / num2
+#     return add, sub, multiply, div
+
+# x = int(input("x: "))
+# y = int(input("y: "))
+# print(arithmetic(x, y))
+
+
+
+
+# positional arguments
+
+# def myFunc(fname, lname):
+#     print(f"My first name is {fname} and my last name is {lname}")
+
+# myFunc("Arpit", "Rai")
+
+
+
+
+# keyword arguments
+
+# def my_func(fname, lname):
+#     print(f"My first name is {fname} and my last name is {lname}")
+
+# my_func(lname = "Rai", fname = "Arpit")
+
+
+
+
+# default arguments
+
+# def my_func(fname, lname = "Rai"):
+#     print(f"My first name is {fname} and my last name is {lname}")
+
+# my_func("Arpit")
+
+
+
+
+# variable-length positional arguments
+
+# def sum_num(num1, *num):
+#     result = num1
+#     for i in num:
+#         result += i 
+#     return result
+
+# r = sum_num(10, 20, 30, 40, 50)
+# print("sum =", r)
+
+
+
+
+# variable length keyword arguments
+
+# def my_func(**name):
+#     print(f"The first name is {name['fname']}, middle name is {name['mname']} and last name is {name['lname']}")
+
+# my_func(fname = "Arpit", mname = "Kumar", lname = "Rai")
+
+
+
+
 # factorial
 
 # def fact(n):
@@ -36,3 +119,53 @@
 #     print("Palindrome")
 # else:
 #     print("Not palindrome")
+
+
+
+
+# check anagram
+
+# def are_anagrams(s1, s2):
+#     if len(s1) == len(s2):
+#         for s in s1:
+#             if s not in s2:
+#                 print("Not anagrams")
+#                 break
+#         else:
+#             print("Anagrams")
+#     else:
+#         print("Not anagrams")
+
+# str1 = input("Enter 1st string: ")
+# str2 = input("Enter 2nd string: ")
+# are_anagrams(str1, str2)
+
+
+
+# def are_anagrams(s1, s2):
+#     if sorted(s1) == sorted(s2):
+#         print("Anagrams")
+#     else:
+#         print("Not anagrams")
+
+# str1 = input("Enter 1st string: ")
+# str2 = input("Enter 2nd string: ")
+# are_anagrams(str1, str2)
+
+
+
+
+
+
+# longest word in a sentence
+
+# def longest_word(text):
+#     txt = text.split()
+#     g = txt[0]
+#     for i in txt:
+#         if len(i) > len(g):
+#             g = i 
+#     return g
+
+# s = input("Enter sentence: ")
+# print(f"Longest word is '{longest_word(s)}'")

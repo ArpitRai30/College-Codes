@@ -99,17 +99,17 @@
 
 # print armstrong numbers from 1 to n
 
-# n = int(input("Enter n: ")) 
-# for i in range (10, n+1):
-#     l = len(str(i))
-#     sum = 0
-#     q = i 
-#     while q != 0:
-#         r = q % 10
-#         sum += r ** l 
-#         q //= 10
-#     if sum == i:
-#         print(i, end = " ")
+n = int(input("Enter n: ")) 
+for i in range (10, n+1):
+    l = len(str(i))
+    sum = 0
+    q = i 
+    while q != 0:
+        r = q % 10
+        sum += r ** l 
+        q //= 10
+    if sum == i:
+        print(i, end = " ")
  
 
 

@@ -65,8 +65,10 @@
 #         result += i 
 #     return result
 
-# r = sum_num(10, 20, 30, 40, 50)
-# print("sum =", r)
+# r = input("Enter list:").split()
+# r = [int(num) for num in r]
+# s = sum_num(*r)
+# print("sum =", s)
 
 
 

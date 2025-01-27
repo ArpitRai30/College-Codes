@@ -136,7 +136,7 @@
 
 
 
-# print day accoriding to number
+# print day according to number
 
 # n = int(input("Enter day number: "))
 # days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']

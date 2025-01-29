@@ -171,3 +171,18 @@
 
 # s = input("Enter sentence: ")
 # print(f"Longest word is '{longest_word(s)}'")
+
+
+
+
+# sum of cube of digits
+
+# def cube(n):
+#     p = str(n)
+#     s = 0
+#     for i in p:
+#         s += int(i) ** 3
+#     return s
+
+# x = int(input("num: "))
+# print(cube(x))
